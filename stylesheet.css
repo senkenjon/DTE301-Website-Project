@@ -1,0 +1,131 @@
+/*----- ELEMENTS -----*/
+* {
+  background-size: cover;
+  font-family: arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  z-index: 0;
+
+}
+
+body {
+
+  margin-top: 5rem;
+  height: 100%;
+}
+
+/* Login */
+input[type=text], input[type=password] {
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+
+
+/* Navigation Bar */
+nav {
+  display: inline;
+  float: left;
+  padding: 20px;
+  margin:30px;
+}
+
+nav a {
+  padding: 30px;
+  margin: 5px;
+  color: #4800FF;
+  font-size: 1rem;
+}
+
+nav a:link {
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #FF4C00;
+}
+
+p {
+  padding: 5px;
+}
+
+
+
+
+/*----- IDS -----*/
+#content {
+  margin-left: 17rem;
+  margin-right: 17rem;
+}
+
+#header {
+  float: left;
+  width: 99%;
+  margin-left: 17rem;
+  margin-right: 17rem;
+}
+
+#Logo {
+  float: left;
+}
+
+
+#button {
+
+  margin-left: auto;
+  margin-right: 0;
+  float: right;
+  text-decoration: none;
+  background-color: rgba(72,0,255, 1);
+}
+
+#login {
+  margin-left: 0;
+  margin-right: auto;
+  width: 50px;
+}
+
+#topNav {
+  background-color: rgba(72,0,255, 0);
+  clear: right;
+  margin-left: 0 auto;
+
+}
+
+#about {
+  display: block;
+  border-style: outset;
+  padding: 0;
+
+}
+
+
+#footer {
+  background-color: #1E1E1E;
+  margin-top: 10%;
+  margin-bottom: 0;
+  padding: auto;
+  color: white;
+  clear: left;
+  font-size: 10px
+
+}
+
+
+
+
+
+/*----- CLASSES -----*/
+.discussion-box {
+  border-style: outset;
+  width: auto;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 5px;
+}
+
+.heading {
+  background-color: #463FFF
+  
+}
